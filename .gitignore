@@ -1,0 +1,52 @@
+# Kotlin/Java/Gradle
+.gradle/
+build/
+out/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Compose Compiler Caches
+**/build/
+**/compose-compiler/
+**/compose/
+
+# macOS
+.DS_Store
+
+# Android
+*.apk
+*.ap_
+*.aab
+.cxx/
+local.properties
+captures/
+.externalNativeBuild/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# iOS / Xcode
+*.xcuserstate
+*.xcworkspace/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/WorkspaceSettings.xcsettings
+*.xcuserdata/
+*.moved-aside
+DerivedData/
+build/
+
+# Cocoapods
+Pods/
+Podfile.lock
+*.xcconfig
+Generated/
+.idea/kmm_shared.iml
+
+# Kotlin Native
+*.konan/
+.kotlinc/
