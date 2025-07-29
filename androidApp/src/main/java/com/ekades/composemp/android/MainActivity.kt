@@ -8,18 +8,23 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.ekades.composemp.Greeting
+import com.ekades.composemp.quran.App
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+//            val viewModel = remember {
+//                QuranViewModel(QuranRepository(), CoroutineScope(Dispatchers.Main))
+//            }
             MyApplicationTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    GreetingView(Greeting().greet())
+//                    GreetingView(Greeting().greet())
+//                    QuranListScreen(viewModel)
+                    App()
                 }
             }
         }
